@@ -1,0 +1,413 @@
+/*/* roboto-300 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v20-latin_cyrillic-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin_cyrillic-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin_cyrillic-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-v20-latin_cyrillic-300.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin_cyrillic-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v20-latin_cyrillic-300.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-500 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin_cyrillic-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin_cyrillic-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v20-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin_cyrillic-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin_cyrillic-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-900 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v20-latin_cyrillic-900.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v20-latin_cyrillic-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v20-latin_cyrillic-900.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v20-latin_cyrillic-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+
+/* Переменные ОБЩИЕ ДЛЯ ВСЕЙ СТРАНИЦЫ */
+:root {
+  --text-color: #757575;
+  --text-dark-color: #212121;
+  --blu-color: #2196f3;
+  --light-color: #ffffff;
+  --background: #2f303a;
+}
+/*  ОБЩЕЕ на СТРАНИЦЕ */
+.body {
+  text-decoration: none;
+  font-family: "Roboto", "sans-serif";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* CVG картинки шапки */
+.pic-letter::before,
+.pic-letter::after {
+  display: inline-block;
+  content: "";
+}
+.pic-letter::before {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-color: hsl(210, 11%, 96%);
+  background-image: url("../icons/letter.svg");
+  background-repeat: no-repeat;
+}
+
+.pic-phone::before,
+.pic-phone::after {
+  display: inline-block;
+  content: "";
+}
+.pic-phone::before {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  background-color: hsl(210, 11%, 96%);
+  background-image: url("../icons/phone.svg");
+  background-repeat: no-repeat;
+}
+
+/* ОСНОВНОЙ КОНТЕЙНЕР*/
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* убираем точки списков*/
+.list {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Логотип */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--blu-color);
+}
+.logo:hover {
+  border-bottom: 2px solid var(--blu-color);
+}
+
+/* Темный - для светлого фона */
+.dark {
+  color: var(--text-dark-color);
+}
+/* Светлый - для темного фона */
+.light {
+  color: var(--light-color);
+}
+
+/* Ш А П К А */
+.header-all {
+  margin-bottom: 94px;
+  background: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  /*outline: 1px solid #140666;
+  background-color: #0ec43c;*/
+}
+
+.header-logo {
+  display: flex;
+  margin-right: 93px;
+}
+
+.header-nav-site {
+  display: flex;
+}
+.header-nav-site .item:not(:last-child) {
+  /*Для всех кроме последнего */
+  margin-right: 50px;
+}
+
+.header-nav-site .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: inherit;
+  text-decoration: none;
+  color: var(--text-dark-color);
+}
+.header-nav-site .link:hover {
+  color: var(--blu-color);
+}
+.header-nav-site .link:focus {
+  color: var(--blu-color);
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contacts .item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: inherit;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.header-contacts .item:hover {
+  color: var(--blu-color);
+}
+.header-contacts .item:focus {
+  color: var(--blu-color);
+}
+.header-contacts .item + .item {
+  /*Для всех у кого есть сосед спереди */
+  margin-left: 50px;
+}
+
+/* КНОПКИ ВЫБОРА КАРТОЧКИ*/
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice-btn {
+  margin-bottom: 50px;
+  margin-left: 8px;
+  padding: 6px 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-dark-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.choice-btn:hover {
+  cursor: pointer;
+}
+.choice-btn:first-child {
+  /* Только для первого */
+  margin-bottom: 50px;
+  margin-left: 0px;
+  color: var(--light-color);
+  background: var(--blu-color);
+}
+
+/* КАРТОЧКИ */
+.card-box {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card-element {
+  width: 370px;
+  height: 404px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.card-element:nth-child(3n + 1) {
+  /* Для каждого 3-го */
+  margin-left: 0px;
+}
+.card-element:nth-last-child(-n + 3) {
+  /* Для последних трёх */
+  margin-bottom: 94px;
+}
+
+.card-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  letter-spacing: 0.06em;
+  color: var(--text-dark-color);
+}
+
+.card-text {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* ПОДВАЛ*/
+
+.footer-all {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background);
+}
+
+.footer-blok {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 9px;
+  color: var(--light-color);
+}
+
+.footer-link:hover {
+  color: var(--blu-color);
+}
+.footer-link:focus {
+  color: var(--blu-color);
+}
+
+.footer-items {
+  margin-top: 20px;
+}
+
+.appeal {
+  display: inline;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+
+.footer-social {
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.footer-icons-item:not(:last-child) {
+  margin-right: 10px;
+  border-bottom: none;
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.footer-svg-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: #ffffff1a;
+  border-radius: 50%;
+}
+.footer-svg-link:hover,
+.footer-svg-link:focus {
+  background: #2196f3;
+}
