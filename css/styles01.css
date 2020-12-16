@@ -259,6 +259,28 @@
   margin-left: 50px;
 }
 
+/* Иконки конверта и телефона */
+
+.icons-lette {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #989da0;
+}
+.icons-lette:hover {
+  fill: #2196f3;
+}
+
+.icons-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #989da0;
+}
+.icons-phone:hover {
+fill: #2196f3;
+}
+
 /* Центральная часть ГЕРОЙ */
 .hero {
   display: flex;
@@ -372,33 +394,6 @@
 /* ДЕЯТЕЛЬНОСТЬ-ЧЕМ МЫ ЗАНИМАЕМСЯ */
 
 /* CVG картинки */
-.pic-letter::before,
-.pic-letter::after {
-  display: inline-block;
-  content: "";
-}
-.pic-letter::before {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-color: hsl(210, 11%, 96%);
-  background-image: url("../icons/letter.svg");
-  background-repeat: no-repeat;
-}
-
-.pic-phone::before,
-.pic-phone::after {
-  display: inline-block;
-  content: "";
-}
-.pic-phone::before {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-color: hsl(210, 11%, 96%);
-  background-image: url("../icons/phone.svg");
-  background-repeat: no-repeat;
-}
 
 .pic-ant::before,
 .pic-ant::after {
