@@ -265,14 +265,14 @@ fill: #2196f3;
   border-radius: 4px;
 }
 .choice-btn:hover {
+  color: var(--light-color);
+  background: var(--blu-color);
   cursor: pointer;
 }
 .choice-btn:first-child {
   /* Только для первого */
   margin-bottom: 50px;
   margin-left: 0px;
-  color: var(--light-color);
-  background: var(--blu-color);
 }
 
 /* КАРТОЧКИ */
