@@ -493,6 +493,10 @@ fill: #2196f3;
   /*Левфй отступ ко всем кроме первого */
   margin-left: 0px;
 }
+.team-img {
+  margin-bottom: 30px;
+}
+
 /* Постоянныу Клиенты */
 
 .client {
