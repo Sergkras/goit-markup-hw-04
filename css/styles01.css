@@ -139,6 +139,7 @@
   background: #ffffff;
   border-radius: 50%;
 }
+
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
   fill: #ffffff;
@@ -174,9 +175,6 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--blu-color);
-}
-.logo:hover {
-  border-bottom: 2px solid var(--blu-color);
 }
 
 /* Темный - для светлого фона */
@@ -236,9 +234,6 @@
 }
 
 .header-contacts .item {
-  /*outline: 1px solid #ca0a0a;
-  background-color: #eedf09;*/
-
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -254,6 +249,15 @@
 .header-contacts .item:focus {
   color: var(--blu-color);
 }
+
+.item:hover .icons-lette {
+  fill: #2196f3;
+}
+
+.item:hover .icons-phone {
+  fill: #2196f3;
+}
+
 .header-contacts .item + .item {
   /*Для всех у кого есть сосед спереди */
   margin-left: 50px;
@@ -267,18 +271,12 @@
   margin-right: 10px;
   fill: #989da0;
 }
-.icons-lette:hover {
-  fill: #2196f3;
-}
 
 .icons-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: #989da0;
-}
-.icons-phone:hover {
-fill: #2196f3;
 }
 
 /* Центральная часть ГЕРОЙ */
@@ -290,6 +288,7 @@ fill: #2196f3;
 .hero .element {
   text-align: center;
 }
+
 /* Титул - ГЕРОЙ */
 .hero-title {
   margin-left: auto;
